@@ -1,0 +1,19 @@
+.button2 {
+    padding: 20px 60px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+}
+
+.button2:hover {background-color: lightblue;
+}
+
+.button2:active {
+    background-color: lightblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

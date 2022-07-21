@@ -1,0 +1,39 @@
+.button {
+  padding: 7px 14px;
+  font-size: 20;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3ca3de;
+  margin: auto;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 13px 2px #3ca3de;
+}
+  
+.button:hover {
+  background-color: lightblue;
+  box-shadow: 0 0 13px 2px lightblue;
+}
+  
+.button:active {
+  background-color: lightblue;
+  box-shadow: 0 0 13px 2px lightblue;
+}
+
+.text-rainbow-animation {
+    font-family:arial black;
+    font-size:40px;
+     background-image: 
+        linear-gradient(to right, #ff0909, #ff0043, #ff0070, #ec009c, #c600c3, #9e4fe4, #6a70f8, #0087ff, #00b3ff, #00d5ff, #00efb1, #00ff37);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;  
+    animation: rainbow-animation 60s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to  {
+        background-position: 4500vh;
+        }
+}
